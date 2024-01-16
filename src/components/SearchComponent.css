@@ -48,6 +48,22 @@ input {
   display: none;
 }
 
+.suggestion-item {
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0; /* Border between suggestion items */
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Hover effect for suggestion items */
+  .suggestion-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Optional: Style for the last child without a border */
+  .suggestions-container .suggestion-item:last-child {
+    border-bottom: none;
+  }
 /* Styles for the thick sky-blue horizontal rule */
 hr.thick-sky-blue-rule {
   height: 4px; /* Adjust the height as needed for thickness */

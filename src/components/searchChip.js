@@ -105,7 +105,7 @@ function SearchChip() {
               !addedUsers.some((user) => user.name === item.name)
           )
           .map((item, key) => (
-            <div key={key} onClick={() => addChip(item)}>
+            <div key={key} className='suggestion-item' onClick={() => addChip(item)}>
               {item.name}
               {"  "}
               {item.email}
