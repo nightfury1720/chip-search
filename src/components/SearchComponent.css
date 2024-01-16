@@ -1,0 +1,57 @@
+/* SearchComponent.css */
+
+.search-component {
+  margin: 10px;
+}
+
+input {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 0px solid #ccc;
+  transition: border-color 0.3s ease;
+
+  /* Hover styles */
+  &:hover {
+    border-color: #4caf50;
+  }
+
+  /* Focus styles */
+  &:focus {
+    border-bottom-width: 1.5px;
+    border-color: #2196f3; /* Change border color when input is focused */
+    outline: none; /* Remove default outline on focus */
+  }
+}
+
+.chip {
+  display: inline-block;
+  background-color: #e0e0e0;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+/* Add any additional styles based on your needs */
+
+.suggestion {
+  align-self: center;
+  max-height: 400px;
+  overflow-y: auto;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+  border-radius: 8px; /* Add rounded corners for a softer look */
+  border: 1px solid #e0e0e0; /* Optional border for better separation */
+  background-color: #ffffff; /* Background color for the container */
+}
+
+.suggestion.hidden {
+  display: none;
+}
+
+/* Styles for the thick sky-blue horizontal rule */
+hr.thick-sky-blue-rule {
+  height: 4px; /* Adjust the height as needed for thickness */
+  background-color: #87ceeb; /* Sky blue color */
+  border: none; /* Remove default border to customize background color */
+  margin: 20px 0; /* Add some margin for spacing */
+}

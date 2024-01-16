@@ -1,0 +1,12 @@
+.chip {
+  display: inline-block;
+  background-color: #e0e0e0;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.chip.highlighted {
+  background-color: #ffeeba; /* Adjust the highlighted background color */
+}
